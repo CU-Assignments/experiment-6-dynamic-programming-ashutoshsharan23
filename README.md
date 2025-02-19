@@ -1,12 +1,12 @@
 # Exp-6-Dynamic Programming
 
 
-## **📌 Dynamic Programming (DP)**
+## ** Dynamic Programming (DP)**
 Dynamic Programming (DP) is a powerful algorithmic technique used for solving optimization problems by breaking them down into smaller overlapping subproblems and solving each subproblem only once, storing the results for future reference.
 
 ---
 
-## **🔹 Key Concepts**
+## ** Key Concepts**
 ### **1. Optimal Substructure**
 A problem exhibits **optimal substructure** if its solution can be constructed from the solutions of its subproblems.  
 Example: The shortest path in a graph can be broken into smaller shortest path subproblems.
@@ -62,7 +62,7 @@ Example: Fibonacci sequence, where `fib(n) = fib(n-1) + fib(n-2)`, repeatedly ca
 
 ---
 
-## **🚀 Common DP Problems**
+## ** Common DP Problems**
 | Problem Type | Examples |
 |-------------|----------|
 | **1D DP** | Fibonacci, Climbing Stairs, House Robber |
