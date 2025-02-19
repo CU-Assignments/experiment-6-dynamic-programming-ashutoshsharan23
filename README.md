@@ -18,47 +18,10 @@ Example: Fibonacci sequence, where `fib(n) = fib(n-1) + fib(n-2)`, repeatedly ca
 ### **3. Memoization (Top-Down Approach)**
 - Uses **recursion** with a **cache (array or hashmap)** to store previously computed results.
 - Avoids redundant calculations.
-- Example:
-  ```java
-  import java.util.*;
 
-  class Fibonacci {
-      static Map<Integer, Integer> memo = new HashMap<>();
-      public static int fib(int n) {
-          if (n <= 1) return n;
-          if (memo.containsKey(n)) return memo.get(n);
-          int result = fib(n - 1) + fib(n - 2);
-          memo.put(n, result);
-          return result;
-      }
-
-      public static void main(String[] args) {
-          System.out.println(fib(10)); // Output: 55
-      }
-  }
-  ```
 ### **4. Tabulation (Bottom-Up Approach)**
 - Uses **iteration** and builds up solutions from smaller subproblems.
 - Typically more space-efficient.
-- Example:
-  ```java
-  class Fibonacci {
-      public static int fib(int n) {
-          if (n <= 1) return n;
-          int[] dp = new int[n + 1];
-          dp[0] = 0;
-          dp[1] = 1;
-          for (int i = 2; i <= n; i++) {
-              dp[i] = dp[i - 1] + dp[i - 2];
-          }
-          return dp[n];
-      }
-
-      public static void main(String[] args) {
-          System.out.println(fib(10)); // Output: 55
-      }
-  }
-  ```
 
 ---
 
