@@ -97,30 +97,9 @@ class Solution {
 **Space Complexity:** O(n) (Can be optimized to O(1) using variables)
 
 ---
+These are the problem which are releated to Dynamic Programming are solved in the given expirement 🚀🚀🚀: -
+>> 1. Climbing Stairs - https://leetcode.com/problems/climbing-stairs/
+>> 2. Jump Game - https://leetcode.com/problems/jump-game/
 
-## **🛠 Useful Resources**
-📘 **Books**  
-- "Introduction to the Design and Analysis of Algorithms" - Anany Levitin  
-- "Dynamic Programming for Coding Interviews" - Meenakshi  
-- "Algorithm Design" - Jon Kleinberg & Éva Tardos  
 
-💡 **Online Courses**  
-- [MIT OpenCourseWare (DP)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)  
-- [Coursera: Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox)  
-
-🚀 **Practice Platforms**  
-- [LeetCode DP Problems](https://leetcode.com/problemset/all/?topicSlugs=dynamic-programming)  
-- [GeeksforGeeks DP Guide](https://www.geeksforgeeks.org/dynamic-programming/)  
-
----
-
-## **💡 Summary**
-✅ **Dynamic Programming** is useful for solving **optimization** and **counting** problems.  
-✅ It relies on **overlapping subproblems** and **optimal substructure**.  
-✅ Two main techniques: **Memoization (Top-Down)** and **Tabulation (Bottom-Up)**.  
-✅ Widely used in **pathfinding, knapsack, game theory, and sequence alignment**.  
-
----
-
-Let me know if you need modifications or additions! 🚀
 
