@@ -73,28 +73,7 @@ Example: Fibonacci sequence, where `fib(n) = fib(n-1) + fib(n-2)`, repeatedly ca
 
 ---
 
-## **📖 Famous DP Problems & Solutions**
-### **1. Climbing Stairs (Fibonacci Variation)**
-#### **Problem Statement**  
-You can climb `n` stairs taking `1` or `2` steps at a time. Find the number of ways to reach the top.
 
-#### **Solution (Bottom-Up DP)**
-```java
-class Solution {
-    public int climbStairs(int n) {
-        if (n <= 2) return n;
-        int[] dp = new int[n + 1];
-        dp[1] = 1;
-        dp[2] = 2;
-        for (int i = 3; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
-        }
-        return dp[n];
-    }
-}
-```
-**Time Complexity:** O(n)  
-**Space Complexity:** O(n) (Can be optimized to O(1) using variables)
 
 ---
 These are the problem which are releated to Dynamic Programming are solved in the given expirement 🚀🚀🚀: -
