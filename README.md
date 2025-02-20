@@ -25,7 +25,7 @@ Example: Fibonacci sequence, where `fib(n) = fib(n-1) + fib(n-2)`, repeatedly ca
 
 ---
 
-## ** Common DP Problems**
+## ** Common DP Examples**
 | Problem Type | Examples |
 |-------------|----------|
 | **1D DP** | Fibonacci, Climbing Stairs, House Robber |
